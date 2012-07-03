@@ -1,0 +1,38 @@
+/*Target only Explorer*/
+/*ALl input fields*/
+.form input[type="text"],
+.form input[type="password"],
+.form select.multiple,
+.form textarea {
+  height: 26px;
+}
+input[type="submit"],
+input[type="button"] {
+  height: 26px;
+}
+/*Top Right Create New Menu*/
+#ShortcutsMenu > li > a {
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+/*Calendar with dates*/
+.calendar-events-1 span,
+.calendar-events-2 span,
+.calendar-events-3 span,
+.calendar-events-4 span,
+.calendar-events-5 span,
+.calendar-events-6 span {
+  font-size: 38px !important;
+  letter-spacing: -25px !important;
+}
+.calendar-events-1 span :before,
+.calendar-events-2 span :before,
+.calendar-events-3 span :before,
+.calendar-events-4 span :before,
+.calendar-events-5 span :before,
+.calendar-events-6 span :before {
+  top: 10px !important;
+}
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .ui-multiselect-checkboxes label {
+  border: none;
+}
